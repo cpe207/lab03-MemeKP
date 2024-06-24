@@ -1,0 +1,47 @@
+/*_________________________________*\
+#NAVIGATION BAR
+\*_________________________________*/
+@keyframes slideIn{
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.box{
+    font-family: Jost;
+    font-size: 30px;
+    left: 15px;
+    top: 9px;
+    color: hsl(208, 100%, 97%);
+    position: absolute;
+    animation: slideIn 500ms ease-out forwards;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsla(0, 0%, 0%, 0.778);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar a{
+    color: hsl(208, 100%, 97%);
+    text-decoration: none;
+    font-family: Jost;
+    font-size: 20px;
+    display: block;
+    padding: 15px;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(60, 100%, 78%);
+}
+.navbar li{
+    float: right;
+}
+.header{
+    animation: slideIn 500ms ease-out forwards;
+}

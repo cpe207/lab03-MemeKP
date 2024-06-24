@@ -1,0 +1,158 @@
+/*_________________________________*\
+#BACKGROUND
+\*_________________________________*/
+body {
+    margin: 0px;
+    background-image: url(images/IMG_4129.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+/*_________________________________*\
+#HEADER
+\*_________________________________*/
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.box {
+    font-family: Jost;
+    font-size: 30px;
+    left: 15px;
+    top: 9px;
+    color: hsl(208, 100%, 97%);
+    position: absolute;
+    animation: slideIn 500ms ease-out forwards;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: hsla(0, 0%, 0%, 0.778);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: hsl(208, 100%, 97%);
+    text-decoration: none;
+    font-family: Jost;
+    font-size: 20px;
+    display: block;
+    padding: 15px;
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(60, 100%, 78%);
+}
+
+.navbar li {
+    float: right;
+}
+
+.header {
+    animation: slideIn 500ms ease-out forwards;
+}
+
+/*_________________________________*\
+#MAIN CONTENT
+\*_________________________________*/
+@keyframes slideRight {
+    to {
+        transform: translateX(10%);
+    }
+}
+
+.maintext {
+    transform: translateY(10%);
+    position: relative;
+    display: block;
+    left: 100px;
+}
+
+.title {
+    position: absolute;
+}
+
+.sub1 {
+    font-family: IBMP;
+    font-weight: bolder;
+    color: hsl(0, 0%, 100%);
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 534px;
+    animation: slideIn 500ms ease-out forwards;
+}
+
+#p3 {
+    border-left: 3px solid hsl(46, 100%, 50%);
+    color: hsl(46, 100%, 50%);
+    font-family: Libre;
+    font-size: 90px;
+    text-shadow: 4px 4px 4px hsl(0, 0%, 0%);
+    animation: slideIn 500ms ease-out forwards;
+}
+
+.sub2 {
+    font-family: IBMP;
+    font-weight: bolder;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    display: block;
+    position: relative;
+    top: 330px;
+    animation: slideIn 500ms ease-out forwards;
+}
+
+.content {
+    font-family: IBMP;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    top: 330px;
+    left: 100px;
+    animation: slideIn 500ms ease-out forwards;
+}
+
+.dropdown button {
+    font-family: Jost;
+    font-size: 25px;
+    background-color: hsla(0, 0%, 0%, 0.573);
+    color: white;
+    padding: 5px 40px;
+    border: none;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: hsla(0, 0%, 100%, 0.818);
+    min-width: 550px;
+    box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.8);
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: hsla(0, 0%, 100%, 0.851);
+    color: hsl(0, 0%, 0%);
+}
