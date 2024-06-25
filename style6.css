@@ -11,3 +11,16 @@ body{
 a{
     text-decoration: none;
 }
+#p6{
+    display: block;
+    position: relative;
+    left: 30%;
+    font-family: Jost;
+    font-size: 30px;
+}
+h2{
+    position: relative;
+    text-align: center;
+    font-family: PlayfairDisplay;
+    font-style: italic;
+}
