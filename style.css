@@ -1,12 +1,5 @@
-/*_________________________________*\
-#BACKGROUND
-\*_________________________________*/
 body {
     margin: 0px;
-    background-image: url(images/IMG_4129.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-attachment: fixed;
 }
 
 /*_________________________________*\
@@ -24,49 +17,6 @@ body {
     }
 }
 
-.box {
-    font-family: Jost;
-    font-size: 30px;
-    left: 15px;
-    top: 9px;
-    color: hsl(208, 100%, 97%);
-    position: absolute;
-    animation: slideIn 500ms ease-out forwards;
-}
-
-.navbar ul {
-    list-style-type: none;
-    background-color: hsla(0, 0%, 0%, 0.778);
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-}
-
-.navbar a {
-    color: hsl(208, 100%, 97%);
-    text-decoration: none;
-    font-family: Jost;
-    font-size: 20px;
-    display: block;
-    padding: 15px;
-}
-
-.navbar a:hover {
-    background-color: hsl(0, 0%, 0%);
-    color: hsl(60, 100%, 78%);
-}
-
-.navbar li {
-    float: right;
-}
-
-.header {
-    animation: slideIn 500ms ease-out forwards;
-}
-
-/*_________________________________*\
-#MAIN CONTENT
-\*_________________________________*/
 @keyframes slideRight {
     to {
         transform: translateX(10%);

@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+}
+.card{
+    transform: translateY(2rem);
+    margin-right: 10px;
+}
+.row{
+    transform: translateX(2%);
+}
