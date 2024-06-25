@@ -8,14 +8,14 @@ section{
     padding: 10px;
 }
 h2{
-    font-family: Libre;
+    font-family: Jost;
     font-size: 25px;
     text-align: center;
     color: hsl(0, 0%, 100%);
     animation: slideIn 400ms ease-out forwards;
 }
 #p1{
-    font-family: Libre;
+    font-family: IBMP;
     font-size: 20px;
     font-weight: bolder;
     color: hsl(0, 0%, 100%);
@@ -53,8 +53,9 @@ dd{
     animation: slideIn 400ms ease-out forwards;
 }
 dt{
-    font-family: Libre;
+    font-family: IBMP;
     font-size: 20px;
+    font-weight: bolder;
     color: hsl(0, 0%, 100%);
     animation: slideIn 400ms ease-out forwards;
 }
