@@ -3,8 +3,11 @@ body{
 }
 .card{
     transform: translateY(2rem);
-    margin-right: 10px;
+    margin-right: 15px;
 }
 .row{
-    transform: translateX(2%);
+    transform: translateX(10%);
+}
+a{
+    text-decoration: none;
 }
